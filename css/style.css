@@ -75,7 +75,6 @@ header {
 }
 
 .jumbotron {
-    background-color: #ee82ee;
     margin: 50px 505px 50px;
     flex-grow: 1;
     text-align: center;
@@ -86,12 +85,25 @@ header {
 .jumbotron > p {
     font-size: 20px;
     line-height: 30px;
+    padding: 50px;
 }
-.fa-solid fa-arrow-down{
-    font-size: 20px;
-}
+
+
 .button-left-head {
     color: #000000;
+    font-size: 25px;
+    background-color: #FFFFFF;
+    padding: 28px;
+    border-radius: 40px ;
+}
+
+.button-right-head {
+    color: #FFFFFF;
+    font-size: 25px;
+    background-color: #000000;
+    padding: 28px;
+    border-radius: 40px ;
+
 }
 
 .hr {
