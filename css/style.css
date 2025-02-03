@@ -70,7 +70,6 @@ header {
 }
 
 .section-header-container {
-    height: 500px;                                          /*rimuovere quando vengono inseriti i contenuti */
     margin-bottom: 5px;
     display: flex;
 }
@@ -82,6 +81,17 @@ header {
     text-align: center;
     color: #FFFFFF;
     font-size: 50px;
+    }
+
+.jumbotron > p {
+    font-size: 20px;
+    line-height: 30px;
+}
+.fa-solid fa-arrow-down{
+    font-size: 20px;
+}
+.button-left-head {
+    color: #000000;
 }
 
 .hr {
