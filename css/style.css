@@ -121,7 +121,7 @@ main
 .main-container {
     display: flex;
     justify-content: center;
-    height: 600px;                                          /*rimuovere quando vengono inseriti i contenuti */   
+ 
 }
 
 
@@ -149,7 +149,7 @@ main
 
 .box-small > p {
     font-size: 20px;
-    line-height: 30px;
+    line-height: 35px;
 }
 
 #main1 {
