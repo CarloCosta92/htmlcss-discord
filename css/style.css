@@ -123,6 +123,9 @@ main
     justify-content: center;
     height: 600px;                                          /*rimuovere quando vengono inseriti i contenuti */   
 }
+
+
+
 #second-section {   
     background-color: #d3d3d3;
 }
@@ -131,15 +134,26 @@ main
 .box-big {
     width: 720px;
     flex-shrink: 0;
-    background-color: #1e90ff;
+    
     margin: 50px 0 50px 360px;
 
 }
 
 .box-small {
     flex-grow: 1;
-    background-color: #ffc0cb;
+    
     margin: 50px 360px 50px 0;
+    
+}
+
+.box-small > h2 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.box-small > p {
+    font-size: 20px;
+    line-height: 30px;
 }
 
 #main1 {
