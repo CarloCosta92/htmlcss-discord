@@ -34,13 +34,10 @@ header {
     
 }
 
-
-
 .logo {
     width: 240px;
     flex-shrink: 0;
-    align-self: center;
-    
+    align-self: center;   
 }
 
 .nav{
@@ -61,8 +58,7 @@ header {
 
 .login {
     text-align: end;
-    align-self: center;
-    
+    align-self: center;   
     color: #000000;
     font-size: 25px;
     padding: 28px;
@@ -105,7 +101,6 @@ header {
     padding: 28px;
     border-radius: 40px ;
     border-color: #000000;
-
 }
 
 .hr {
@@ -121,10 +116,7 @@ main
 .main-container {
     display: flex;
     justify-content: center;
- 
 }
-
-
 
 #second-section {   
     background-color: #d3d3d3;
@@ -173,8 +165,7 @@ main
 
 .main3 > h2 {
     font-size: 50px;
-    padding-bottom: 20px;
-    
+    padding-bottom: 20px;    
 }
 
 .main3 > p {
@@ -183,12 +174,9 @@ main
 }
 
 .last-section-imagesfondo {                                 
-
     font-size: 25px;
 }
     
-
-
 .p50 {
     padding: 50px;
 }
@@ -200,8 +188,6 @@ main
     padding: 28px;
     border-radius: 40px ;
     margin-top: 100px;
-    
-
 }
 
 /***** 
@@ -225,15 +211,13 @@ footer
     display: flex;
     border-bottom: 2px;
     border-bottom-color: #7288da; 
-    border-bottom-style: inset;
-    
+    border-bottom-style: inset;   
 }
 
 .footer-left > section > h3 {
     color: #7288da;
     font-size: 40px;
-    line-height: 60px;
-    
+    line-height: 60px; 
 }
 
 .ita {
@@ -246,16 +230,13 @@ footer
 }
 .icon {
     font-size: 34px;
-    color: #FFFFFF;
-    
+    color: #FFFFFF;  
 }
-
 
 .footer-right{
     display: flex;
     flex-grow: 1;
-    margin: 12px 360px 40px 0;
-    
+    margin: 12px 360px 40px 0;   
 }
 
 .in-footer-dx {
@@ -282,9 +263,8 @@ footer
 
 
 .footer-container-small{
-    display: flex;                                           /*rimuovere quando vengono inseriti i contenuti */   
+    display: flex;                                       
     background-color: #23272a;
-
 }
 
 #footer1 {
