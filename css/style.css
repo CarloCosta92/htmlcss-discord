@@ -75,10 +75,13 @@ header {
     display: flex;
 }
 
-#head3 {
+.jumbotron {
     background-color: #ee82ee;
     margin: 50px 505px 50px;
     flex-grow: 1;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 50px;
 }
 
 .hr {
