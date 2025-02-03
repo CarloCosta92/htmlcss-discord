@@ -219,9 +219,33 @@ footer
 .footer-left {
     width: 360px;
     flex-shrink: 0;
-    background-color: #f08080;
     margin: 12px 0 40px 360px;
+    line-height: 40px;
+    display: flex;
+    
 }
+
+.footer-left > section > h3 {
+    color: #7288da;
+    font-size: 40px;
+    line-height: 60px;
+    
+}
+
+.ita {
+    width: 50px;
+    height: 33px;
+}
+.itaspan {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.icon {
+    font-size: 34px;
+    color: #FFFFFF;
+    
+}
+
 
 .footer-right{
     display: flex;
