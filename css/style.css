@@ -30,8 +30,7 @@ header {
 }
 
 #logoheader {
-    width: 240px;
-    
+    width: 240px;  
 }
 
 .logo {
@@ -71,11 +70,12 @@ header {
 }
 
 .jumbotron {
-    margin: 50px 505px 50px;
+    /*margin: 50px 505px 50px;*/
     flex-grow: 1;
     text-align: center;
     color: #FFFFFF;
     font-size: 50px;
+    padding: 5% 0;
     }
 
 .jumbotron > p {
@@ -103,9 +103,6 @@ header {
     border-color: #000000;
 }
 
-.hr {
-    height: 5px;
-}
 
 /***** 
 
@@ -116,6 +113,8 @@ main
 .main-container {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
+    padding: 5% 0;
 }
 
 #second-section {   
@@ -124,15 +123,20 @@ main
 
 
 .box-big {
-    width: 720px;
-    flex-shrink: 0;
-    margin: 50px 0 50px 360px;
+    /*width: 720px;*/
+    /*flex-shrink: 0;
+   /*margin: 50px 0 50px 360px;*/
+   color: #000000;
+   
 }
 
 .box-small {
-    flex-grow: 1;
-    margin: 50px 360px 50px 0;
+    /*flex-grow: 1;
+    /*margin: 50px 360px 50px 0;*/
+    color: #000000;
+    
 }
+
 
 .box-small > h2 {
     font-size: 50px;
@@ -149,7 +153,7 @@ main
 }
 
 #main2 {
-    margin: 50px 360px 50px 0;
+   margin: 50px 360px 50px 0;
 }
 
 .last-section {
@@ -199,19 +203,20 @@ footer
 .footer-container-big{
     display: flex;                                     
     background-color: #23272a;
-    padding-top: 170px;
+    /*padding-top: 170px;*/
+    margin: 0 auto;
+    padding: 150px 200px 0px;
 }
 
 .footer-left {
     width: 360px;
-    flex-shrink: 0;
-    margin: 12px 0 40px 360px;
+    /*flex-shrink: 0;*/
+    /*margin: 12px 0 40px 360px;*/
     line-height: 40px;
     padding-bottom: 80px;
     display: flex;
-    border-bottom: 2px;
-    border-bottom-color: #7288da; 
-    border-bottom-style: inset;   
+    border-bottom: #7288da 2px inset;
+
 }
 
 .footer-left > section > h3 {
@@ -236,15 +241,13 @@ footer
 .footer-right{
     display: flex;
     flex-grow: 1;
-    margin: 12px 360px 40px 0;   
+    /*margin: 12px 360px 40px 0;*/  
+    border-bottom: #7288da 2px inset; 
 }
 
 .in-footer-dx {
     flex-grow: 1; 
     padding-bottom: 80px; 
-    border-bottom: 2px;
-    border-bottom-color: #7288da; 
-    border-bottom-style: inset;
 }
 
 .in-footer-dx > ul {
@@ -265,13 +268,16 @@ footer
 .footer-container-small{
     display: flex;                                       
     background-color: #23272a;
+    justify-content: center;
+    margin: 0 auto;
 }
 
-#footer1 {
+
+.footer1 {
     flex-grow: 1;
-    margin: 30px 360px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;  
+    padding: 10px 200px;
 }
 
 #logo-ft{
