@@ -11,12 +11,14 @@ reset
 
 /***** 
 
-main
+header
 
 *****/
 
 header {
-    background-color: #add8e6;     
+    background-color: #add8e6; 
+    background-image: url(/img/jumbo.png);
+    background-size: cover;    
 }
 
 .header-container{
@@ -53,7 +55,6 @@ header {
 }
 
 .section-header-container {
-    background-color: #00008b;
     height: 500px;                                          /*rimuovere quando vengono inseriti i contenuti */
     margin-bottom: 5px;
     display: flex;
