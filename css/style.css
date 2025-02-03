@@ -161,7 +161,7 @@ main
 }
 
 .last-section {
-    display:flex;                                        /*rimuovere quando vengono inseriti i contenuti */   
+    display:flex;                                       
     background-color: #d3d3d3;
 }
 
@@ -211,9 +211,9 @@ footer
 *****/
 
 .footer-container-big{
-    display: flex;
-    height: 630px;                                              /*rimuovere quando vengono inseriti i contenuti */   
+    display: flex;                                     
     background-color: #23272a;
+    padding-top: 170px;
 }
 
 .footer-left {
@@ -221,7 +221,11 @@ footer
     flex-shrink: 0;
     margin: 12px 0 40px 360px;
     line-height: 40px;
+    padding-bottom: 80px;
     display: flex;
+    border-bottom: 2px;
+    border-bottom-color: #7288da; 
+    border-bottom-style: inset;
     
 }
 
@@ -255,7 +259,11 @@ footer
 }
 
 .in-footer-dx {
-    flex-grow: 1;   
+    flex-grow: 1; 
+    padding-bottom: 80px; 
+    border-bottom: 2px;
+    border-bottom-color: #7288da; 
+    border-bottom-style: inset;
 }
 
 .in-footer-dx > ul {
@@ -274,30 +282,34 @@ footer
 
 
 .footer-container-small{
-    display: flex;
-    height: 110px;                                              /*rimuovere quando vengono inseriti i contenuti */   
+    display: flex;                                           /*rimuovere quando vengono inseriti i contenuti */   
     background-color: #23272a;
+
 }
 
 #footer1 {
     flex-grow: 1;
-    background-color: #7fffd4;
     margin: 30px 360px 0;
     display: flex;
     justify-content: space-between;
 }
 
 #logo-ft{
-    width: 70px;                                            /*rimuovere quando vengono inseriti i contenuti */
-    background-color: #ffb6c1;
     align-self: center;
+}
+
+.logofooter {
+    width: 250px;
 }
 
 #button-ft {
-    width: 70px;                                            /*rimuovere quando vengono inseriti i contenuti */
-    background-color: #ffb6c1;
+    background-color: #7288da;
     align-self: center;
-
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 20px ;
 }
+
+
 
 
