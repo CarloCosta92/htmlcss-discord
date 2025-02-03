@@ -251,13 +251,27 @@ footer
     display: flex;
     flex-grow: 1;
     margin: 12px 360px 40px 0;
-    background-color: #20b2aa;
+    
 }
 
 .in-footer-dx {
-    flex-grow: 1;
-    border: #00008b 1px dotted;
+    flex-grow: 1;   
 }
+
+.in-footer-dx > ul {
+    list-style-type: none;
+    line-height: 55px;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.in-footer-dx > h4 {
+    list-style-type: none;
+    line-height: 55px;
+    color: #7288da;
+    font-size: 25px;
+}
+
 
 .footer-container-small{
     display: flex;
@@ -285,4 +299,5 @@ footer
     align-self: center;
 
 }
+
 
