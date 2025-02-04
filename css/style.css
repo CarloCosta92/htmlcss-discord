@@ -12,12 +12,12 @@ reset
 
 /***** 
 
-header
+header      sarebbe stato meglio avere l'immagine sfondo non in tutto l'header ma solo nel jumbotron 
 
 *****/
 
 header {
-    background-color: #add8e6; 
+    /*background-color: #add8e6;*/ 
     background-image: url(/img/jumbo.png);
     background-size: cover;    
 }
@@ -92,7 +92,7 @@ jumbotron
 
 /********** 
 
-button
+button              tutti i bottoni in realtà sono dei link in quanto linkeranno altre cose
 
 **********/
 .button-left-head {
@@ -177,7 +177,7 @@ main
 
 .main3 {
     flex-grow: 1;
-    margin: 50px 360px 50px;
+    margin: 50px 360px 50px;   /* da togliere*/
     text-align: center;
 }
 
@@ -261,6 +261,7 @@ footer high
 .footer-right{
     display: flex;
     flex-grow: 1;
+    font-style: bold;
     /*margin: 12px 360px 40px 0;*/  
     border-bottom: #7288da 2px inset; 
 }
