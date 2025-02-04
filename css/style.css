@@ -25,14 +25,14 @@ header {
 .header-container{
     display: flex;
     justify-content: center;
-    /*margin: 0 360px 0;*/
     padding: 16px 200px 16px;
 }
 
-#logoheader {
+/*#logoheader {
     width: 240px;  
-}
+}*/
 
+#logoheader,
 .logo {
     width: 240px;
     flex-shrink: 0;
@@ -64,6 +64,12 @@ header {
     border-radius: 40px ;
 }
 
+/* 
+
+jumbotron  
+
+*/
+
 .section-header-container {
     margin-bottom: 5px;
     display: flex;
@@ -84,7 +90,11 @@ header {
     padding: 50px;
 }
 
+/********** 
 
+button
+
+**********/
 .button-left-head {
     color: #000000;
     font-size: 25px;
@@ -138,16 +148,19 @@ main
 }
 
 
-.box-small > h2 {
+.box-small > h2,
+.main3 > h2 {
     font-size: 50px;
     padding-bottom: 20px;
 }
 
-.box-small > p {
+.box-small > p,
+.main3 > p {
     font-size: 20px;
     line-height: 35px;
 }
 
+/*
 #main1 {
     margin: 50px 0 50px 360px;
 }
@@ -155,6 +168,7 @@ main
 #main2 {
    margin: 50px 360px 50px 0;
 }
+   */
 
 .last-section {
     display:flex;                                       
@@ -167,23 +181,23 @@ main
     text-align: center;
 }
 
+/*
 .main3 > h2 {
     font-size: 50px;
     padding-bottom: 20px;    
 }
+    */
 
-.main3 > p {
+/*.main3 > p {
     font-size: 20px;
     line-height: 35px;  
 }
+*/
 
 .last-section-imagesfondo {                                 
     font-size: 25px;
 }
-    
-.p50 {
-    padding: 50px;
-}
+ 
 
 .button-last-section {
     color: #000000;
@@ -208,8 +222,14 @@ footer
     padding: 150px 200px 0px;
 }
 
+/*****
+
+footer high
+
+*****/
+
 .footer-left {
-    width: 360px;
+    /*width: 360px;*/
     /*flex-shrink: 0;*/
     /*margin: 12px 0 40px 360px;*/
     line-height: 40px;
@@ -264,6 +284,11 @@ footer
     font-size: 25px;
 }
 
+/*****
+
+footer down
+
+*****/
 
 .footer-container-small{
     display: flex;                                       
