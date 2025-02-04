@@ -229,7 +229,7 @@ footer high
 *****/
 
 .footer-left {
-    /*width: 360px;*/
+    width: 360px;
     /*flex-shrink: 0;*/
     /*margin: 12px 0 40px 360px;*/
     line-height: 40px;
